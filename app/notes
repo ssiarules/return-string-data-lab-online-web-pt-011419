@@ -1,0 +1,1 @@
+rails g migration add_description_and_inventory_products description:string inventory:integer
