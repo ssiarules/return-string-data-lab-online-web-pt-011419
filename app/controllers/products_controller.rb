@@ -15,11 +15,11 @@ class ProductsController < ApplicationController
   end
 
   def inventory
-     render plain: @product.inventory > 0
+     render plain: product.inventory > 0
   end
 
   def description
-      render plain: @product.description
+      render plain: product.description
     end
 
   private
