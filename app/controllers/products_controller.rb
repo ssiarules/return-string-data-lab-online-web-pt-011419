@@ -6,7 +6,8 @@ class ProductsController < ApplicationController
     redirect_to products_path
   end
 
-  def inventory 
+  def inventory
+     render plain: @product.inventory > 0
   end
 
   private
